@@ -53,8 +53,10 @@ export default function Hero({}: Props) {
         </Link>
 
         <Link href="#projects">
-          {" "}
           <button className="hero-btn">projects</button>
+        </Link>
+        <Link href="#contact">
+          <button className="hero-btn">contact me</button>
         </Link>
       </div>
     </div>

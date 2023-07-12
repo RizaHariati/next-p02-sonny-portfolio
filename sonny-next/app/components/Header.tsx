@@ -3,10 +3,11 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion, MotionConfig } from "framer-motion";
+import Link from "next/link";
 
 function Header() {
   return (
-    <header className="fixed t-0 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center w-full">
+    <header className="fixed t-0 flex items-center justify-between z-20 left-1/2 -translate-x-1/2 w-full max-w-7xl mx-auto ">
       <motion.div
         className="flex flex-row items-center"
         initial={{
@@ -75,9 +76,14 @@ function Header() {
           fgColor="gray"
           bgColor="transparent"
         />
-        <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
+        <p className="uppercase hidden md:inline-flex text-sm text-gray-400 mr-20">
           Get in touch
         </p>
+        <Link href="/admin/">
+          <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
+            Admin
+          </p>
+        </Link>
       </motion.div>
     </header>
   );

@@ -16,4 +16,8 @@
   .hero-btn {
     @apply uppercase cursor-pointer rounded-full tracking-widest text-gray-500 z-10 border px-6 py-2 hover:border-gray-600 border-transparent transition-all;
   }
+
+  .input-contact {
+    @apply w-full px-4 py-2 rounded-sm text-stone-800;
+  }
 }

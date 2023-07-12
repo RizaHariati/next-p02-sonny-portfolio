@@ -15,10 +15,7 @@ function WorkExperience() {
       <h2 className="uppercase text-gray-500 text-2xl tracking-widest absolute top-20">
         Experience
       </h2>
-      <div
-        className="flex absolute top-28 w-full overflow-x-scroll space-x-5 snap-x snap-mandatory"
-        style={{ scrollbarWidth: "thin" }}
-      >
+      <div className="flex absolute top-28 w-full overflow-x-scroll space-x-5 snap-x snap-mandatory scrollbar-thin scrollbar-thumb-stone-700 scrollbar-track-stone-200">
         <ExperienceCard />
         <ExperienceCard />
         <ExperienceCard />
